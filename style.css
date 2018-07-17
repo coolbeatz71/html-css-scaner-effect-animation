@@ -1,0 +1,55 @@
+#line{
+	
+	position: relative;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 10px;
+    opacity: .5;
+    z-index: 100;
+    background-color: green;
+}
+
+#dot{
+
+	position: relative;
+	left: 10px;
+	width: 20px;
+	height: 20px;
+	background-color: #000;
+	opacity: 1;
+}
+
+#cover{
+
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+    height: 200px;
+}
+
+body{
+
+	background-color: #000;
+	background-image: url('img/bac.png');
+	color: #FFF;
+	font-size: 14px;
+	font-family: "Courier", fixed, monospace;
+}
+
+#content{
+
+	margin: 100px 20px 0px 20px;
+	position: relative;
+	opacity: .6;
+	z-index: 50;
+	color: #0F0;
+	text-shadow: 0px 0px 3px;
+	text-transform: uppercase;
+}
+
+[contenteditable="true"]{
+
+	outline: none;	
+}
